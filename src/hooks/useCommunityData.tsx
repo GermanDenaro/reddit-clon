@@ -31,7 +31,7 @@ const useCommunityData = () => {
     // is the user signed in?
     // if not => open auth modal
     if (isJoined) {
-      leaveCommunity(useCommunityData.id);
+      leaveCommunity(communityData.id);
       return;
     }
     joinCommunity(communityData);
