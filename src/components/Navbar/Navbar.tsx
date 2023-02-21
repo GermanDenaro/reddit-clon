@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
     >
       <Flex
         align='center'
-        width={{ basxe: '40px', md: 'auto' }}
+        width={{ base: '40px', md: 'auto' }}
         mr={{ base: 0, md: 2 }}
       >
         <Image src='/images/redditFace.svg' height='30px' />
